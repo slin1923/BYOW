@@ -12,9 +12,14 @@ Build your own World is a simple offline PvP game where you try to collect more 
 Requirement: Java 8+ 
 
 Windows workflow
-1. clone the repo, then in terminal from the top level directory...
-2. Compile via ```javac -cp ".;.\javalib\*" byow\Core\*.java byow\TileEngine\*.java```.  This compiles the contents of ```byow\Core``` and ```byow\TileEngine``` and you should see ```.class``` files appear. 
-3. Start playing with ```java -cp ".;.\javalib\*" .\byow\Core\Main.java```!
+1. clone the repo, then `cd BYOW`
+2. Compile
+
+`javac -cp ".;.\javalib\*" byow\Core\*.java byow\TileEngine\*.java`.  
+
+5. Start playing
+
+`java -cp ".;.\javalib\*" .\byow\Core\Main.java`
 
 ## Background
 
