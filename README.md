@@ -1,6 +1,7 @@
 # BYOW: Build your own World 🌎
 
 Updated: 9/6/26
+
 Contributors: Sean Lin (now Stanford MS), Dayne Tran (now at Applied Intuition)
 
 ## Overview
@@ -20,4 +21,4 @@ Windows workflow
 
 ## How to Play
 
-Player left controls with WASD.  Player right controls with IJKL. Get more flowers than your adversary to win!
+Player left controls with **WASD**.  Player right controls with **IJKL**. Get more flowers than your adversary to win!
