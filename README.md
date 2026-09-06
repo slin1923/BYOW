@@ -15,11 +15,11 @@ Windows workflow
 1. clone the repo, then `cd BYOW`
 2. Compile
 
-`javac -cp ".;.\javalib\*" byow\Core\*.java byow\TileEngine\*.java`.  
+>`javac -cp ".;.\javalib\*" byow\Core\*.java byow\TileEngine\*.java`.  
 
-5. Start playing
+3. Start playing
 
-`java -cp ".;.\javalib\*" .\byow\Core\Main.java`
+>`java -cp ".;.\javalib\*" .\byow\Core\Main.java`
 
 ## Background
 
