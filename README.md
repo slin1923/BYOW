@@ -12,12 +12,10 @@ Build your own World is a simple offline game that you can play in single player
 Requirement: Java 8+ 
 
 Windows workflow
-1. clone the repo
-2. From the top-level folder BYOW, compile the contents of ```byow\Core``` and ```byow\TileEngine``` via the following command in your terminal. 
-
-```javac -cp ".;.\library-fa20\javalib\*" byow\Core\*.java byow\TileEngine\*.java```
-
-3. Start playing with ```java -cp ".;.\library-fa20\javalib\*" byow\Core\Main.java```. Follow the instructions. 
+1. clone the repo, then in terminal from the top level directory...
+2. initialize the github embedded submodule ```git submodule update --init --recursive```.  (BYOW depends on a 3rd-party library from 61B). 
+3. Compile via ```javac -cp ".;.\library-fa20\javalib\*" byow\Core\*.java byow\TileEngine\*.java```.  This compiles the contents of ```byow\Core``` and ```byow\TileEngine``` and you should see ```.class``` files appear. 
+4. Start playing with ```java -cp ".;.\library-fa20\javalib\*" byow\Core\Main.java```!s
 
 ## How to Play
 
